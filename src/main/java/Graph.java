@@ -53,6 +53,7 @@ public class Graph {
     public static int executeTransitions(Graph graph, ArrayList<Integer> transitions)
     {
         int vertex = 0;
+        System.out.println("State Transitions");
 
         for (int i=0; i< transitions.size(); i++) {
 
@@ -73,6 +74,7 @@ public class Graph {
     public static int printGraph(Graph graph, int vertex)
     {
 
+        System.out.println("Printing the entire state machine. Current state is represented by asterisk(*).");
         int currentVertex = 0;
         for(int v = 0; v < graph.V; v++)
         {

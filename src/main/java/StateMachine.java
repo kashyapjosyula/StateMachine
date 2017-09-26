@@ -37,6 +37,9 @@ public class StateMachine {
 
         ArrayList<Integer> transitions = new ArrayList<>();
 
+
+        System.out.println("Enter transitions");
+
         for (int i=0; i<numberOfTransitions; i++) {
 
             int transition = in.nextInt();
